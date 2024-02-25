@@ -2,15 +2,14 @@
 
 project title - Kendil Pharma Description: Kendil Pharma is a web application that enables pharmacists to manage their medication inventory by adding, deleting, and updating medicine information, while users can access the comprehensive list of medicines provided by pharmacists. It also employs secure authenticaion and autherization system.
 
+Technology Stack
 
+The Kendil Pharma web application utilizes the following technologies:
 
+    Front-end Framework: Bulma
+    Back-end Framework: Node.js is used as the server-side framework to handle the application's logic and data processing.
 
-## Why we chose MongoDB
+    Database: MongoDB was chosen as the database solution for its compatibility with the project's technology stack, schema flexibility, and efficient handling of large amounts of data.
 
-1. We used MongoDB because its document storage format is a JSON-like format called BSON (Binary JSON). This format aligns with NestJS's use of JavaScript and JSON serialization, allowing us to store and retrieve JSON-like records without complex normalization. This compatibility simplifies data integration.
-
-2. MongoDB offers schema flexibility, which is crucial for our data. For example, data like drug descriptions can contain varying lengths and content. Additionally, MongoDB can handle large amounts of data efficiently.
-
-3. MongoDB provides an ODM (Object Document Mapping) that offers functionality to perform CRUD operations, making it easier to work with the database.
 
 
